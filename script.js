@@ -4,7 +4,7 @@ function fahtocelc() {
   if (celc == Number(celc)) {
     document.getElementById("celcbox").innerHTML = converted + " C";
   } else {
-    document.getElementById("celcbox").innerHTML = "Enter Numbers only";
+    document.getElementById("celcbox").innerHTML = "Error";
   }
 }
 function celctofah() {
@@ -13,6 +13,6 @@ function celctofah() {
   if (fah == Number(fah)) {
     document.getElementById("fahrbox").innerHTML = converted + " F";
   } else {
-    document.getElementById("fahrbox").innerHTML = "Enter Numbers only";
+    document.getElementById("fahrbox").innerHTML = "Error";
   }
 }

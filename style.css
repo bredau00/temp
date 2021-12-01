@@ -1,0 +1,11 @@
+button:hover {
+  background-color: aqua;
+}
+
+body {
+  background-image: url(./temp.jpg);
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
